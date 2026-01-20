@@ -1,5 +1,5 @@
-import { BaseEntry, Entry, EntryData } from "./Entry";
-import { ClientEvents } from "./marcsync";
+import { BaseEntry, Entry, EntryData } from "./Entry.js";
+import { ClientEvents } from "./marcsync.js";
 import * as signalR from "@microsoft/signalr";
 
 export class SubscriptionManager {

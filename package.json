@@ -4,8 +4,9 @@
   "description": "A NodeJS MarcSync Client to communicate with MarcSync's API",
   "main": "dist/marcsync.js",
   "types": "dist/index.d.ts",
+  "type": "module",
   "scripts": {
-    "build": "rmdir /s /q dist && tsc && node generate-indexdts.js"
+    "build": "rm -rf dist && tsc"
   },
   "repository": {
     "type": "git",
